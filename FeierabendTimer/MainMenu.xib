@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="y8h-EB-X55" customClass="MenuController" customModule="FeierabendTimer" customModuleProvider="target">
+            <connections>
+                <outlet property="startMenuItem" destination="oxr-lQ-gA8" id="92t-IW-PzZ"/>
+                <outlet property="statusMenu" destination="I1S-rc-y01" id="sN4-G1-IXb"/>
+            </connections>
+        </customObject>
+        <menu id="I1S-rc-y01">
+            <items>
+                <menuItem title="Start" id="oxr-lQ-gA8">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="startClickedWithSender:" target="y8h-EB-X55" id="7RD-gd-AYh"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit" id="xGQ-G1-iOO">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClickedWithSender:" target="y8h-EB-X55" id="3Vb-3E-A3a"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>

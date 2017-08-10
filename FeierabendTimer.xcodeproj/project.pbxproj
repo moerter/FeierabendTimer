@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D85D4041F15F5F800B2F579 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D85D4031F15F5F800B2F579 /* MainMenu.xib */; };
+		8DDC4F431F15F3B800AF3286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC4F421F15F3B800AF3286 /* AppDelegate.swift */; };
+		8DDC4F471F15F3B800AF3286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDC4F461F15F3B800AF3286 /* Assets.xcassets */; };
+		8DDC4F521F15F55C00AF3286 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC4F511F15F55C00AF3286 /* MenuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D85D4031F15F5F800B2F579 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		8DDC4F3F1F15F3B800AF3286 /* FeierabendTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeierabendTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDC4F421F15F3B800AF3286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DDC4F461F15F3B800AF3286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DDC4F4B1F15F3B800AF3286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DDC4F511F15F55C00AF3286 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DDC4F3C1F15F3B800AF3286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DDC4F361F15F3B800AF3286 = {
+			isa = PBXGroup;
+			children = (
+				8DDC4F411F15F3B800AF3286 /* FeierabendTimer */,
+				8DDC4F401F15F3B800AF3286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DDC4F401F15F3B800AF3286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DDC4F3F1F15F3B800AF3286 /* FeierabendTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DDC4F411F15F3B800AF3286 /* FeierabendTimer */ = {
+			isa = PBXGroup;
+			children = (
+				8DDC4F421F15F3B800AF3286 /* AppDelegate.swift */,
+				8DDC4F511F15F55C00AF3286 /* MenuController.swift */,
+				8DDC4F461F15F3B800AF3286 /* Assets.xcassets */,
+				8DDC4F4B1F15F3B800AF3286 /* Info.plist */,
+				8D85D4031F15F5F800B2F579 /* MainMenu.xib */,
+			);
+			path = FeierabendTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DDC4F3E1F15F3B800AF3286 /* FeierabendTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDC4F4E1F15F3B800AF3286 /* Build configuration list for PBXNativeTarget "FeierabendTimer" */;
+			buildPhases = (
+				8DDC4F3B1F15F3B800AF3286 /* Sources */,
+				8DDC4F3C1F15F3B800AF3286 /* Frameworks */,
+				8DDC4F3D1F15F3B800AF3286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeierabendTimer;
+			productName = FeierabendTimer;
+			productReference = 8DDC4F3F1F15F3B800AF3286 /* FeierabendTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DDC4F371F15F3B800AF3286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Marco Oerter";
+				TargetAttributes = {
+					8DDC4F3E1F15F3B800AF3286 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AX24Y822N8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8DDC4F3A1F15F3B800AF3286 /* Build configuration list for PBXProject "FeierabendTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DDC4F361F15F3B800AF3286;
+			productRefGroup = 8DDC4F401F15F3B800AF3286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DDC4F3E1F15F3B800AF3286 /* FeierabendTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DDC4F3D1F15F3B800AF3286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDC4F471F15F3B800AF3286 /* Assets.xcassets in Resources */,
+				8D85D4041F15F5F800B2F579 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DDC4F3B1F15F3B800AF3286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDC4F521F15F55C00AF3286 /* MenuController.swift in Sources */,
+				8DDC4F431F15F3B800AF3286 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DDC4F4C1F15F3B800AF3286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DDC4F4D1F15F3B800AF3286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		8DDC4F4F1F15F3B800AF3286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AX24Y822N8;
+				INFOPLIST_FILE = FeierabendTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.moerterdev.FeierabendTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8DDC4F501F15F3B800AF3286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AX24Y822N8;
+				INFOPLIST_FILE = FeierabendTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.moerterdev.FeierabendTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DDC4F3A1F15F3B800AF3286 /* Build configuration list for PBXProject "FeierabendTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDC4F4C1F15F3B800AF3286 /* Debug */,
+				8DDC4F4D1F15F3B800AF3286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DDC4F4E1F15F3B800AF3286 /* Build configuration list for PBXNativeTarget "FeierabendTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDC4F4F1F15F3B800AF3286 /* Debug */,
+				8DDC4F501F15F3B800AF3286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DDC4F371F15F3B800AF3286 /* Project object */;
+}
